@@ -1,0 +1,20 @@
+.btn {
+  padding: 0 12px;
+}
+
+.action-btn {
+  background-color: var(--action-color);
+}
+
+.drive-btn,
+.stop-btn {
+  background-color: var(--drive-color);
+}
+
+.enabled {
+  background-color: red;
+}
+
+.disabled {
+  background-color: green;
+}

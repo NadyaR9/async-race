@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  padding-bottom: 20px;
+  &-btn {
+    padding: 5px 12px;
+    background-color: #63a583;
+    color: var(--font-color);
+  }
+}

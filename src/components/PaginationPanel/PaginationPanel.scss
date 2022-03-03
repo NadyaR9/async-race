@@ -1,0 +1,12 @@
+.pagination-list {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  column-gap: 5px;
+}
+
+.pagination-item {
+  padding: 2px 0;
+  width: 35px;
+  background-color: var(--action-color);
+}

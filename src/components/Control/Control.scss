@@ -1,0 +1,14 @@
+.car-control {
+  &__item {
+    display: flex;
+    column-gap: 10px;
+    margin: 5px 0;
+    .color-input {
+      width: 50px;
+      padding: 2px;
+    }
+    button {
+      background-color: var(--action-color);
+    }
+  }
+}

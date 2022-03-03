@@ -1,0 +1,36 @@
+.winners-table {
+  width: 100%;
+  tr {
+    height: 40px;
+    text-align: center;
+  }
+  th {
+    align-items: center;
+    text-align: center;
+  }
+  .car-ceil {
+    width: 20%;
+  }
+  .sort-by {
+    position: relative;
+    cursor: pointer;
+  }
+  .sort-by-img {
+    height: 30px;
+    width: 20px;
+  }
+  .asc {
+    position: absolute;
+    right: 0;
+    background-image: url(../../images/svg/asc.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .desc {
+    position: absolute;
+    right: 0;
+    background-image: url(../../images/svg/desc.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+}
